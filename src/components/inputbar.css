@@ -1,0 +1,60 @@
+.inputBar {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.inputBar form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputBar input,
+.inputBar select,
+.inputBar button {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #888;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #444;
+    color: #fff;
+}
+
+.inputBar select {
+    width: 125px;
+}
+
+.inputBar .amount {
+    width: 50px;
+}
+
+.inputBar input:focus,
+.inputBar select:focus,
+.inputBar button:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.inputBar button {
+    width: auto;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+}
+
+.inputBar button:hover {
+    background-color: #888;
+}
+  
