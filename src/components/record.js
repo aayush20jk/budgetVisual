@@ -1,4 +1,4 @@
-let expenditures = [
+const expenditures = [
     { id: 1, category: 'Food', item: 'Groceries', amount: 50 },
     { id: 2, category: 'Travel', item: 'Train tickets', amount: 100 },
     { id: 3, category: 'Bills', item: 'Electricity', amount: 80 },
@@ -10,6 +10,4 @@ let expenditures = [
     { id: 9, category: 'Travel', item: 'Hotel stay', amount: 150 },
     { id: 10, category: 'Others', item: 'Miscellaneous', amount: 30 }
 ];
-
-console.log(expenditures);
 export default expenditures;
