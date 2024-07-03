@@ -1,0 +1,26 @@
+.total-balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    text-transform: capitalize;
+    background-color: rgba(20,20,20,0.7);
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+.t-bal {
+    color: #7b7b7b;
+    margin-bottom: 0;
+}
+
+.money {
+    margin-top: 0;
+    color: #ffff;
+    margin-bottom: 0;
+}
+
+.mon-left {
+    color: #20c997;
+    margin-top: 0;
+}

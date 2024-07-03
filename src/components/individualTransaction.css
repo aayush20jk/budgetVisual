@@ -1,0 +1,23 @@
+.ind-tran {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.ind-tran > div {
+    margin: 5px 20px;
+}
+
+.item-name {
+    margin-bottom: 0;
+    color: #7b7b7b;
+}
+
+.date-time {
+    color: #7b7b7b;
+    margin-top: 0px;
+}
+
+.amt {
+    color: #20c997;
+}

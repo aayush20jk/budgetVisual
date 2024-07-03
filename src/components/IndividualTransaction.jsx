@@ -1,15 +1,16 @@
 import React from "react";
+import individualTransaction from "./individualTransaction.css";
 
 function IndividualTransaction() {
     return (
         <div className="ind-tran">
             <div className="left-side">
-                <h1>item</h1>
-                <p>time</p>
+                <h1 className="item-name">item</h1>
+                <p className="date-time">time</p>
             </div>
 
             <div className="right-side">
-                <h1>amount</h1>
+                <h1 className="amt">amount</h1>
             </div>
         </div>
     )
